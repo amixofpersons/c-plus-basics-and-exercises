@@ -1,7 +1,6 @@
 include <#iostream>
 /* 
-
-in C++ there are multiple ways to output to the command line!
+In C++ there are multiple ways to output to the command line!
 the simplest way to do so is to type std::cout
 
 If you don't like typing, you have the option to import std methods like so:
@@ -19,11 +18,11 @@ int main(){
 	cout >> "This is the standard form of output in C++!";
 	*/
 	std::cout << "This is the standard form of output in C++!" << std::endl;
-    std::cout << "STD just stands for standard, while cout is c output. You need the two arrows as well at the front." << std::endl;
+    std::cout << "STD just stands for standard, while cout is c output. You need the two arrows beforehand as well." << std::endl;
     std::cout << "The method std::endl simple starts the output statement on a new line. It looks nicer that way." << std::endl;
 
     std::cout << "You " << "can " << "also " << "chain " << "words!" << std::endl;
-    std::cout << "Basic math is also possible! For example, 2+2 = " << 2+2 << "." << std::endl;
+    std::cout << "Including variables is also possible! For example, 2+2 = " << 2+2 << "." << std::endl;
 
     std::cout << "The possibilities are endless!" << std::endl;
 }
