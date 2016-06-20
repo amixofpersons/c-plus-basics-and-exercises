@@ -17,18 +17,18 @@ int main(){
 	double dsquareroot;
 
 	sum = 4+5;
-	cout << sum;
+	std::cout << sum;
 	difference = 4-3;
-	cout << difference;
+	std::cout << difference;
 	product = 2*4;
-	cout << product;
+	std::cout << product;
 	quotient = 3/1;
-	cout << quotient;
+	std::cout << quotient;
 
 	//some math requires you to include the math library in C++
 	//this library is called "cmath"
 	squared = pow(2, 3);
-	cout << squared;
+	std::cout << squared;
 
 	/*
 	it's important to know what each number is whether it's an integer,
@@ -37,9 +37,9 @@ int main(){
 	*/
 
 	squareroot = sqrt(66);
-	cout << squareroot;
+	std::cout << squareroot;
 	dsquareroot = sqrt(66);
-	cout << dsquareroot;
+	std::cout << dsquareroot;
 
 	return 0;
 }
