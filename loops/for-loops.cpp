@@ -11,7 +11,12 @@ int main(){
 	centering around the variable. this is relatively common
 	to do and is what you'll be using for loops for. 
 
-	Until a condition is met, keep doing this */
+	Until a condition is met, keep doing this.
+
+	You want to be careful with for loop conditions so you
+	don't end up creating an infinite loop which will continue forever
+	since the condition to break out of the loop hasn't been established.
+	*/
 
 	for(n = 0; n < 10; n++){
 		/*here for each time we go through this loop, we'll
