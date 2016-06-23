@@ -18,17 +18,30 @@ using namespace std;
 	example, if I declare an int function I'll want to make sure I
 	return an int by the end of it. */
 
-//
+/* if you want to return an integer in a function, you'll want to 
+	use the int return type. Be sure that at the end of the function 
+	to use a return statement to return your integer. It MUST be an 
+	integer, you can't return a different variable */
+
 int addition (int a, int b){
   int r;
   r=a+b;
   return r;
 }
 
+/* if you need a function but don't need to return anything your best bet
+   is to use the return type void. you won't have to use a return at the
+   end of the function*/
+
+/* any variable type can also be specified as a function return type. int,
+double, char, string, float, etc. it all depends on what you want to do
+with the function */
+
 void outputname(string n){
 	cout << "Hello there, " << n << "! I hope you have a great day!\n";
 }
 
+//main is always an int function, you'll get an error if you state otherwise
 int main (){
   int z;
   string name; 
